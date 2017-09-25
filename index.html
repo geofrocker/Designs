@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yummy Recipes</title>
+  <!-- Bootstrap cdn -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+	<!-- For local development -->
+  <!-- <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css"> -->
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Yummy Recipes</a>
+    </div><!-- navbar-header -->
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Recipes</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="/register">Register</a></li>
+        <li><a href="/login"><i class="fa fa-fw fa-sign-in"></i>Login</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+</nav>
+<div class="container">
+  <div class="col-sm-5">
+    <div class="jumbotron">
+      <center>
+        <h3>Register your membership from here</h3>
+          <form method="POST" action="">
+            <div class="form-group">
+              <input type="text" name="username" placeholder="Username" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" placeholder="Password" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <input type="password" name="confirm_password" placeholder="Confirm Password" class="form-control" required>
+            </div>
+            <input type="submit" value="Register" class="btn btn-success btn-block">  
+          </form>
+          <p>or</p>
+          <a href="login.html">Already member? Click here to login</a>
+      </center>
+    </div><!-- /jumbotron -->
+  </div><!-- /col-sm-8 -->
+</div> <!-- /container -->
+
+<!-- Jquery -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">    
+</script>
+<!-- Bootstrap js -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- For local development
+<script src="static/js/jquery-2.2.3.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script> -->
+</body>
+</html>
