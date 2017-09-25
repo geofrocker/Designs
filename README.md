@@ -4,6 +4,6 @@ All my designs for yummy recipes web app
 Check the Yummy Recipe UML.png file
 # For wire frames
 Check the following files
-..* login.png
-..* register.png
-..* myrecipes.png
+  * login.png
+  * register.png
+  * myrecipes.png
