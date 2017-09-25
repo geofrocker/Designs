@@ -7,3 +7,7 @@ Check the following files
   * login.png
   * register.png
   * myrecipes.png
+# For interfaces
+Check out these files
+  * index.html
+  * dashboard.html
